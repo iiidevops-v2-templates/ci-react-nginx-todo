@@ -1,4 +1,4 @@
-FROM dockerhub/library/node:18-alpine as build
+FROM dockerhub/library/node:18-alpine AS build
 WORKDIR /app
 COPY app /app
 RUN yarn
